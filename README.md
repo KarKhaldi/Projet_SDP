@@ -22,3 +22,10 @@ We can choose solutions according to this plot. For example, we can get this pla
 <p align="center">
   <img src="results\toy_instance\1.png" alt="Example Solution" width="80%"/>
 </p>
+
+
+And finally, we can rank our solutions using the function given in preferences.py and get rankings using Weighted Sum Models and TOPSIS such as :
+
+<p align="center">
+  <img src="results\large_instance\good_solution_ranking.png" alt="Example Solution" width="80%"/>
+</p>
