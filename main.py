@@ -1,6 +1,6 @@
 import sys 
-from Planification_Et_Affectation.model.generate_model import *
-
+from model.generate_model import *
+from model.plotting_solutions import *
 
 # Opening JSON file
 instance_name = "./data/medium_instance"
@@ -21,4 +21,7 @@ Q = len(data["qualifications"]) # Number of qualifications
 solution_dict = solver_model(data,S,H,J,Q)
 solution_reduite = reduce_solution_format(solution_dict)
 non_dominated_sol = get_non_dominated_solutions(solution_reduite)
-# now must add cleaning data , then refactor this in a main function with arg sys 
+
+#example of plotting of ranking :
+
+plotting_figure(non_dominated_sol,solution_dict)
