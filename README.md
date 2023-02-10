@@ -1,6 +1,5 @@
 # Planification_Et_Affectation
-Planification de personnel et Affectation de projets
-
+Either the notebook or the main.py file can be used to solve the problem. However, we recommand using the notebook for a more step-by-step solving.
 
 Solving a multi-objective planning problem using the Gurobi linear solver.
 
